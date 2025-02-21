@@ -54,3 +54,11 @@ The AI model will then detect the clothing items you are wearing (and their colo
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Hugging Face](https://huggingface.co/)
+
+### Demo
+
+This is what it should look like: ![Demo](./public/demo_screenshot.png)
+
+The models I used are pre-trained ones from Hugging Face, so the detections are not completely on point, but if you were to train a model yourself, you could get better results.
+
+The colours are detected by taking the average colour of the bounding boxes of the detected clothing items, so they might be wrong too.
