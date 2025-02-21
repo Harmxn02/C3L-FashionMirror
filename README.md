@@ -42,6 +42,12 @@ npm run dev
 
 After running the above commands, you can access the application by visiting `http://localhost:3000/` in your web browser.
 
+### Usage
+
+In the frontend application, you press the "Start Camera" button to start the camera.
+You can then press the "Take Picture" button to take a picture of yourself.
+The AI model will then detect the clothing items you are wearing (and their colors) and display it on the screen.
+
 ### Tools Used
 
 - [FastAPI](https://fastapi.tiangolo.com/)
